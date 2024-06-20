@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bild-Spiel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Bild-Spiel</h1>
+    <div id="gameContainer">
+        <div id="uploadSection" class="hidden">
+            <input type="file" id="imageUpload" accept="image/*">
+            <button id="uploadButton">Bild hochladen</button>
+        </div>
+        <div id="imageSection" class="hidden">
+            <img id="uploadedImage" src="" alt="Hochgeladenes Bild">
+            <div id="actions">
+                <button id="likeButton" class="hidden">Like</button>
+                <textarea id="commentBox" class="hidden" placeholder="Kommentieren..."></textarea>
+                <button id="submitComment" class="hidden">Kommentar abschicken</button>
+            </div>
+        </div>
+        <div id="commentsSection" class="hidden">
+            <h2>Kommentare</h2>
+            <ul id="commentsList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
