@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#gameContainer {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#uploadedImage {
+    max-width: 100%;
+    height: auto;
+}
+
+#commentsSection {
+    margin-top: 20px;
+}
